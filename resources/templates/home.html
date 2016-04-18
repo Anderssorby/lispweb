@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="jumbotron">
+    <h1>Nabla linuxklubb</h1>
+    <p>Et lekeprosjekt for å lære lisp</p>
+    <p><a class="btn btn-primary btn-lg" href="http://luminusweb.net">Rammeverk &raquo;</a></p>
+  </div>
+
+  <div class="row">
+    <div class="span12">
+    {{docs|markdown}}
+    </div>
+  </div>
+{% endblock %}
