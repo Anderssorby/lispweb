@@ -18,4 +18,6 @@ To start a web server for the application, run:
 
 ## License
 
-Copyright © 2016 FIXME
+MIT license
+
+Copyright © 2016 Anders Christiansen Sørby
